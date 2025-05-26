@@ -1,0 +1,75 @@
+ .arbaani-footer {
+    background-color: #8b0000; /* dark red */
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px 20px;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .footer-section {
+    flex: 1 1 220px;
+    margin: 20px;
+  }
+
+  .footer-section h3,
+  .footer-section h4 {
+    margin-bottom: 15px;
+    color: #ff6f61; /* light red/pinkish red */
+  }
+
+  .footer-section p,
+  .footer-section ul {
+    font-size: 14px;
+    color: #ffecec;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-section ul li a {
+    color: #ffecec;
+    text-decoration: none;
+  }
+
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1);
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    border-top: 1px solid #ff6f61;
+    color: #ffdede;
+  }
+
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-section {
+      margin: 10px 0;
+    }
+  }
